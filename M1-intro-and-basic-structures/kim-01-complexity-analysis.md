@@ -29,7 +29,7 @@
 - Стартовая заготовка — [`attachments/lab01-complexity-starter.py`](attachments/lab01-complexity-starter.py); окружение — [`requirements.txt`](../requirements.txt).
 - Данные варианта — генерируются командой `python scripts/generate_data.py --variant N --only arrays` (см. [`scripts/generate_data.py`](../scripts/generate_data.py)); заготовка читает их из `data/generated` и сверяет номер варианта по `manifest.json`.
 - Методика бенчмаркинга — [`docs/reproducibility.md`](../docs/reproducibility.md); методика верификации — [`docs/ai-verification.md`](../docs/ai-verification.md).
-- Лекция 1 «Введение и алгоритмическая сложность» — [`lectures/lecture-01-complexity.md`](../lectures/lecture-01-complexity.md).
+- Лекция 1 «Введение и алгоритмическая сложность» — [`lectures/lecture-01-complexity.md`](https://github.com/mel0d1an/data-structures-and-algorithms/blob/main/lectures/lecture-01-complexity.md).
 
 ## 6. Задание
 
