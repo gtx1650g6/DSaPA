@@ -325,7 +325,7 @@ def main() -> None:
     ap.add_argument("--variant", type=int, required=True, help="номер варианта")
     ap.add_argument("--data", type=Path, default=None,
                     help="каталог с данными варианта (по умолчанию ищется data/generated)")
-    ap.add_argument("--out", type=Path, default=Path.cwd(),
+    ap.add_argument("--out", type=Path, default=Path.cwd() / "graphs",
                     help="каталог для графиков (по умолчанию текущий)")
     args = ap.parse_args()
 
